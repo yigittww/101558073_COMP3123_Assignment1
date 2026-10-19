@@ -1,0 +1,185 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "Assignment1",
+    "collectionId": "eca28512-6a74-4e2b-8e3a-586629fc7b0a",
+    "dateExported": "2026-10-19T01:26:31.682Z",
+    "version": "1.4",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "43851034-6265-4bd0-a16e-09e5c778f9a2",
+            "colId": "eca28512-6a74-4e2b-8e3a-586629fc7b0a",
+            "containerId": "",
+            "name": "http://localhost:3000/health",
+            "url": "http://localhost:3000/health",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2026-10-19T01:25:58.440Z",
+            "modified": "2026-10-19T01:25:58.440Z",
+            "headers": []
+        },
+        {
+            "_id": "a5d5c29f-410a-47da-ab66-90001e2863d0",
+            "colId": "eca28512-6a74-4e2b-8e3a-586629fc7b0a",
+            "containerId": "",
+            "name": "http://localhost:3000/api/v1/emp/employees?eid=6ad56dea1c4b35e6f509a5a8",
+            "url": "http://localhost:3000/api/v1/emp/employees?eid=6ad56dea1c4b35e6f509a5a8",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2026-10-19T01:26:02.296Z",
+            "modified": "2026-10-19T01:26:02.296Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "eid",
+                    "value": "6ad56dea1c4b35e6f509a5a8",
+                    "isPath": false
+                }
+            ],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YWQ1NmNmMzFjNGIzNWU2ZjUwOWE1YTciLCJpYXQiOjE3OTIzNzIwNjEsImV4cCI6MTc5MjM3OTI2MX0.fAWktaW7Dw7i3c3DH6_vujM6e935jcc5rwYSBLCnwqI"
+            }
+        },
+        {
+            "_id": "4a1a6a56-a92f-4127-b5aa-ecd11e75fdcd",
+            "colId": "eca28512-6a74-4e2b-8e3a-586629fc7b0a",
+            "containerId": "",
+            "name": "http://localhost:3000/api/v1/emp/employees/6ad56dea1c4b35e6f509a5a8",
+            "url": "http://localhost:3000/api/v1/emp/employees/6ad56dea1c4b35e6f509a5a8",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2026-10-19T01:26:06.518Z",
+            "modified": "2026-10-19T01:26:06.518Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YWQ1NmNmMzFjNGIzNWU2ZjUwOWE1YTciLCJpYXQiOjE3OTIzNzIwNjEsImV4cCI6MTc5MjM3OTI2MX0.fAWktaW7Dw7i3c3DH6_vujM6e935jcc5rwYSBLCnwqI"
+            }
+        },
+        {
+            "_id": "e2af14d7-d757-46e7-9e00-260d0c1d7b1f",
+            "colId": "eca28512-6a74-4e2b-8e3a-586629fc7b0a",
+            "containerId": "",
+            "name": "http://localhost:3000/api/v1/emp/employees/6ad56dea1c4b35e6f509a5a8",
+            "url": "http://localhost:3000/api/v1/emp/employees/6ad56dea1c4b35e6f509a5a8",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2026-10-19T01:26:09.761Z",
+            "modified": "2026-10-19T01:26:09.761Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{\r",
+                    "  \"first_name\": \"Ahmet\",\r",
+                    "  \"last_name\": \"Yilmaz\",\r",
+                    "  \"email\": \"ahmet.yilmaz@example.com\",\r",
+                    "  \"position\": \"Senior Software Developer\",\r",
+                    "  \"salary\": 120000,\r",
+                    "  \"date_of_joining\": \"2026-10-18\",\r",
+                    "  \"department\": \"IT\"\r",
+                    "}"
+                ],
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YWQ1NmNmMzFjNGIzNWU2ZjUwOWE1YTciLCJpYXQiOjE3OTIzNzIwNjEsImV4cCI6MTc5MjM3OTI2MX0.fAWktaW7Dw7i3c3DH6_vujM6e935jcc5rwYSBLCnwqI"
+            }
+        },
+        {
+            "_id": "7ab20373-deed-4fd1-9c30-c04696562e4c",
+            "colId": "eca28512-6a74-4e2b-8e3a-586629fc7b0a",
+            "containerId": "",
+            "name": "http://localhost:3000/api/v1/emp/employees",
+            "url": "http://localhost:3000/api/v1/emp/employees",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2026-10-19T01:26:13.983Z",
+            "modified": "2026-10-19T01:26:13.983Z",
+            "headers": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YWQ1NmNmMzFjNGIzNWU2ZjUwOWE1YTciLCJpYXQiOjE3OTIzNzIwNjEsImV4cCI6MTc5MjM3OTI2MX0.fAWktaW7Dw7i3c3DH6_vujM6e935jcc5rwYSBLCnwqI"
+            }
+        },
+        {
+            "_id": "7bf87358-d919-49ac-ad6c-43ab31ac7196",
+            "colId": "eca28512-6a74-4e2b-8e3a-586629fc7b0a",
+            "containerId": "",
+            "name": "http://localhost:3000/api/v1/emp/employees",
+            "url": "http://localhost:3000/api/v1/emp/employees",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2026-10-19T01:26:17.392Z",
+            "modified": "2026-10-19T01:26:17.392Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{\r",
+                    "  \"first_name\": \"Ahmet\",\r",
+                    "  \"last_name\": \"Yilmaz\",\r",
+                    "  \"email\": \"ahmet.yilmaz@example.com\",\r",
+                    "  \"position\": \"Software Developer\",\r",
+                    "  \"salary\": 85000,\r",
+                    "  \"date_of_joining\": \"2026-10-18\",\r",
+                    "  \"department\": \"IT\"\r",
+                    "}"
+                ],
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2YWQ1NmNmMzFjNGIzNWU2ZjUwOWE1YTciLCJpYXQiOjE3OTIzNzIwNjEsImV4cCI6MTc5MjM3OTI2MX0.fAWktaW7Dw7i3c3DH6_vujM6e935jcc5rwYSBLCnwqI"
+            }
+        },
+        {
+            "_id": "18df8bfd-f99c-40f7-b692-72e611fda9cc",
+            "colId": "eca28512-6a74-4e2b-8e3a-586629fc7b0a",
+            "containerId": "",
+            "name": "http://localhost:3000/api/v1/user/login",
+            "url": "http://localhost:3000/api/v1/user/login",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2026-10-19T01:26:19.969Z",
+            "modified": "2026-10-19T01:26:19.969Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{\r",
+                    "  \"email\": \"yigitalkoc@example.com\",\r",
+                    "  \"password\": \"Password123\"\r",
+                    "}"
+                ],
+                "form": []
+            }
+        },
+        {
+            "_id": "69f63066-c9d3-47b9-920e-3d591688f47e",
+            "colId": "eca28512-6a74-4e2b-8e3a-586629fc7b0a",
+            "containerId": "",
+            "name": "http://localhost:3000/api/v1/user/signup",
+            "url": "http://localhost:3000/api/v1/user/signup",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2026-10-19T01:26:22.513Z",
+            "modified": "2026-10-19T01:26:22.513Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": [
+                    "{\r",
+                    "  \"username\": \"yigit\",\r",
+                    "  \"email\": \"yigitalkoc@example.com\",\r",
+                    "  \"password\": \"Password123\"\r",
+                    "}"
+                ],
+                "form": []
+            }
+        }
+    ],
+    "ref": "EdGotAKhEvN_XsxXFhuVWZSc7NIcm2Sd5qc0cRxHUXdRV5wX45HvEqr0oyTQ5e85Hl75Q49kJJamAgEY8Ecq1A"
+}
